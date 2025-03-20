@@ -26,9 +26,9 @@ void priorityScheduling(int n, int at[], int bt[], int pr[], int ct[], int tat[]
         ct[highest_priority] = time;
         tat[highest_priority] = ct[highest_priority] - at[highest_priority];
         wt[highest_priority] = tat[highest_priority] - bt[highest_priority];
-        //rt[highest_priority] = wt[highest_priority];
+        rt[highest_priority] = wt[highest_priority];
         
-        //completed++;
+        completed++;
     }
 }
 
