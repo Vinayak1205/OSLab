@@ -61,7 +61,7 @@ int main() {
         }
     }
 
-    // Sort user processes by arrival time for FCFS
+
     for (int i = 0; i < user_count - 1; i++) {
         for (int j = 0; j < user_count - i - 1; j++) {
             if (user_queue[j].arrival_time > user_queue[j + 1].arrival_time) {
